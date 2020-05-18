@@ -3,5 +3,5 @@ echo "Custom action..."
 echo "$(which hugo)"
 
 REPO=/github/workspace
-cd REPO && hugo
+cd $REPO && hugo
 
