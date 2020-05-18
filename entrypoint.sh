@@ -1,3 +1,7 @@
 #!/bin/sh
 echo "Custom action..."
-sh -c "echo $*"
+echo "$(which hugo)"
+
+REPO=/github/workspace
+cd REPO && hugo
+
