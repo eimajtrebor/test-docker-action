@@ -6,6 +6,5 @@ echo "$(pwd)"
 echo "$(node -v)"
 echo "$(npm -v)"
 
-npm install
-hugo
+npm install && hugo
 
